@@ -1,0 +1,88 @@
+body {
+    font-size: 15pt;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 120px;
+    background-color: hsl(185, 75%, 39%);
+    width: 1200px;
+}
+.top{
+  position: absolute;
+  top: -200px;
+  left: -200px;
+}
+.bottom{
+  position: absolute;
+  bottom: -100px;
+  right:  -300px;
+  
+}
+  .card{
+    width: 100%;
+    margin: 0 auto 70px auto;
+border-radius: 4%;
+  }
+
+.avatar{
+  position: absolute;
+  left: 186px;
+  top: 125px;
+  margin: 0 auto 0 auto;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: block;
+  width: 25%;
+}
+.et{
+  background-color: white;
+  position: relative;
+  bottom: 50px;
+  right: 100px;
+  border: 1px solid hsl(185, 75%, 39%);
+  border-radius: 4%;
+  width: 40%;
+  margin: 0 auto 15px auto;
+}
+
+h3{
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  margin: 0 10px 5px 20px;
+
+line-height: 1;
+}
+
+.age{
+  display: inline-block;
+  width: 20px;
+color: hsl(0, 0%, 59%);
+}
+
+.city{
+  margin: 0 42%;
+  width: 20px;
+color: hsl(0, 0%, 59%);
+}
+
+span{
+  line-height: 2;
+  font-size: 18px;
+  color: black;
+}
+
+
+.stats{
+  display: inline-block;
+  margin: 25px;
+  margin-bottom: 50px;
+  color: hsl(0, 0%, 59%);
+  
+
+}
+hr{
+  width: 100%;
+  color: hsl(0, 0%, 59%);
+}
